@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>0</title>
+</head>
+<body>
+	<h1>day 2 assignment - que 4</h1>
+	
+	<script>
+		
+		let str = ["moscow", "mumbai", "sydney", "vegas", "paris"];
+
+		let n = 0;
+
+		for(let i = 0; i<str.length; i++){
+
+			for(let j=0 ; j<str[i].length;j++){
+				if(str[i][j] == "a"){
+					console.log(str[i]);
+					n+=1;
+					break;
+				}
+			}
+		}
+		if(n==0){
+			console.log("no match found");
+		}
+
+	</script>
+</body>
+</html>
